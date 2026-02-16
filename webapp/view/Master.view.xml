@@ -21,7 +21,7 @@
                     id="TreeTableBasic"
                     rows="{path:'LocalDataModel>/treeTable', parameters:{arrayNames:['rows']}}"
                     selectionMode="None"
-                    rowSelectionChange="onRowSelectionChange"
+                    toggleOpenState="onToggleOpenState"
                     enableSelectAll="false"
                     ariaLabelledBy="pageTitle">
                     <tree:extension>
