@@ -129,6 +129,7 @@ sap.ui.define([
                     MessageBox.error("Error while fetching child nodes");
                     this.setBusyOff();
                 }.bind(this)
+                
             });
         }    
     });
